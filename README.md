@@ -29,10 +29,10 @@ This project is a component of my Algorithms and Data Structures University cour
 (This example was provided by my professor)
 ### Input:
 
-<small>4
-MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) .
-2 + MIN ( 100 , MAX ( 1 , 6 * 5 + 2 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) * 3 .
-N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .
+<small>4 \
+MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) . \
+2 + MIN ( 100 , MAX ( 1 , 6 * 5 + 2 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) * 3 .\
+N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .\
 IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .</small>
 
 ### Output:
