@@ -1,17 +1,17 @@
-# Postfix Calculator
+# Algorithms and Data Structures projects for my university course
+This repository originally contained only the Postfix Calculator program. However, I later decided to add two other tasks that I created during my Algorithms & Data Structures (A&DS) course a year ago, that were too small to publish on their own. In addition to the Postfix Calculator, which is described in more detail below, the repository now also includes a Hex Game implementation and a program for processing graphs and performing various graph analyses.
+## Postfix Calculator
 
-
-
-## Overview
+### Overview
 This project is a component of my Algorithms and Data Structures University course. It implements an integer calculator using postfix notation, also known as reverse Polish notation, to manage operator precedence, functions, and parentheses efficiently. The calculator encompasses various operations such as addition, subtraction, multiplication, division, conditional statements, unary negation, and functions like MIN and MAX. It employs my custom implementations of queue and stack data structures.
-## Input
+### Input
 - Number of formulas (`n`)
 - `n` formulas, each in infix notation and ending with a dot ('.'). Each token is separated by whitespace characters.
 - Operands are positive integers.
 - Operators are single characters.
 - Functions consist of capital letters.
 
-## Operations Available
+### Operations Available
 1. Addition (+) and Subtraction (-)
 2. Multiplication (*) and Division (/) - Division results are rounded down.
 3. IF(a, b, c) - Conditional statement.
@@ -19,15 +19,15 @@ This project is a component of my Algorithms and Data Structures University cour
 5. MIN(a1, a2, ...) and MAX(a1, a2, ...) - Functions with variable number of parameters.
 6. Parentheses ( ... )
 
-## Output
+### Output
 - The formula in postfix notation.
 - Before executing each operation, print the operator/function and the content of the stack.
 - The final result.
 - Print "ERROR" if encountering division by 0.
 
-## Example
+### Example
 (This example was provided by my professor)
-### Input:
+#### Input:
 
 <small>4 \
 MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) . \
@@ -35,7 +35,7 @@ MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) . 
 N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .\
 IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .</small>
 
-### Output:
+#### Output:
 
 <small>100  1  34  2  MAX3  80  66  36  35  77  MIN4  50  60  MIN6 \
 MAX3 2 34 1 100 \
